@@ -9,14 +9,14 @@ int main(int argc,char *argv[])
    int *pa, *pb, i, temp;
    int n;
 
-   n = argc - 1;  // The number of elements is the number of arguments minus 1
+   n = argc - 1;
 
    pa = new int[n];
    pb = pa;
 
    for (i = 0; i < n; i++) 
     {
-        pa[i] = atoi(argv[i + 1]);  // Convert each argument to an integer and store it
+        pa[i] = atoi(argv[i + 1]);  
     }
 
       cout<<"Original: ";
